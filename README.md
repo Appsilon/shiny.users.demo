@@ -1,31 +1,12 @@
 # shiny.users - demo
 
-User authentication for R Shiny applications.
+### User authentication for R Shiny applications.
 
-[![CircleCI](https://circleci.com/gh/Appsilon/shiny.users.svg?style=svg&circle-token=ab2add6ebfebe15d93520d4b4efced8f8aafe7fb)](https://circleci.com/gh/Appsilon/shiny.users)
+ We are in early access, join our [waitlist](https://mailchi.mp/appsilondatascience.com/shiny-user-management/ "Shiny Users early access registration")
 
-Login to https://shinyusers.appsilon.com to get your APP_KEY from Developer Panel
+To install shiny.users package look for the **installation** section in your shiny.users early access **invitation email**.
 
-## Installation
-To install package run:
-```
-install.packages("shiny.users", repos = "go.appsilon.com/ARAN")
-```
-
-For rsconnect deployment also add Appsilon R Application Network to your repos:
-
-```
-r <-getOption("repos")
-r["ARAN"] <- "https://go.appsilon.com/ARAN"
-options(repos = r)
-```
-
-If you want to use semantic form_style for shiny.users you need to install latest shiny.semantic package:
-```
-devtools::install_github("git@github.com:Appsilon/shiny.semantic.git", ref = "develop")
-```
-
-## Example
+### Example
 
 ```r
 library(shiny)
